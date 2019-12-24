@@ -1,4 +1,4 @@
-name: flutter_studymm
+name: flutter_shusea
 description: A new Flutter application.
 
 # The following defines the version and build number for your application.
@@ -19,6 +19,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  barcode_scan: ^1.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -41,8 +42,18 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+    - images/yindao.png
+    - images/shuhai.png
+    - images/shouhuo.png
+    - images/chuku.png
+    - images/jianhuo.png
+    - images/kucun.png
+    - images/chaxun.png
+    - images/qiehuan.png
+    - images/shezhi.png
+    - images/logo.png
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
